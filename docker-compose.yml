@@ -1,0 +1,13 @@
+version: "3"
+services:
+  front:
+    container_name: "time-management-app"
+    build:
+      context: .
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./:/app
+    ports:
+      - "8000:8000"
+    tty: true
