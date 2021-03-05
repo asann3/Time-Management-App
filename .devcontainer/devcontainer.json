@@ -29,7 +29,8 @@
 		"dbaeumer.vscode-eslint",
 		"esbenp.prettier-vscode",
 		"davidhouchin.whitespace-plus",
-		"oderwat.indent-rainbow"
+		"oderwat.indent-rainbow",
+		"christian-kohler.path-intellisense"
 	]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
