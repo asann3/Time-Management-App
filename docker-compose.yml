@@ -7,7 +7,9 @@ services:
     environment:
       - NODE_ENV=development
     volumes:
-      - ./time-management-app:/app
+      - .:/app
     ports:
       - "3000:3000"
     tty: true
+    # working_dir:
+    #   /app/time-management-app
