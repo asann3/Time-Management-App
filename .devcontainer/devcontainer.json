@@ -23,7 +23,11 @@
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/zsh",
 		"terminal.integrated.shellArgs.linux": ["-l"],
-		"terminal.integrated.cwd": "time-management-app"
+		"terminal.integrated.cwd": "time-management-app",
+		"editor.formatOnSave": false,
+		"editor.codeActionOnSave": {
+			"source.fixAll.eslint": true,
+		},
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
