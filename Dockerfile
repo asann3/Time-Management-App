@@ -5,6 +5,7 @@ FROM node:14.4.0-alpine3.10
 RUN apk update && \
     apk add git && \
     apk add vim && \
-    apk add zsh
-    # npm install && \
-    # npm install -g npm && \
+    apk add zsh && \
+    apk add tzdata
+
+ENV TZ Asia/Tokyo
